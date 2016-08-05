@@ -1,0 +1,130 @@
+@-webkit-keyframes blink {
+
+	0%{opacity: 0;}40%{opacity: 0;}50%{opacity: 1;}100%{opacity: 1;}
+
+}@-moz-keyframes blink {
+
+	0%{opacity: 0;}40%{opacity: 0;}50%{opacity: 1;}100%{opacity: 1;}
+}@-o-keyframes blink {
+
+	0%{opacity: 0;}40%{opacity: 0;}50%{opacity: 1;}100%{opacity: 1;}
+}@keyframes blink {
+
+	0%{opacity: 0;}40%{opacity: 0;}50%{opacity: 1;}100%{opacity: 1;}
+}
+
+@-webkit-keyframes shake{
+
+	0%{-ms-transform: rotate(0deg);-webkit-transform: rotate(0deg);transform: rotate(0deg)}  
+  	25%{-ms-transform: rotate(17deg);-webkit-transform: rotate(17deg);transform: rotate(17deg);}
+  	50%{-ms-transform: rotate(0deg);-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+  	75%{-ms-transform: rotate(-17deg);-webkit-transform: rotate(-17deg);transform: rotate(-17deg);}
+  	100%{-ms-transform: rotate(0deg);-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+}@-moz-keyframes shake{
+
+	0%{-ms-transform: rotate(0deg);-webkit-transform: rotate(0deg);transform: rotate(0deg)}  
+  	25%{-ms-transform: rotate(17deg);-webkit-transform: rotate(17deg);transform: rotate(17deg);}
+  	50%{-ms-transform: rotate(0deg);-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+  	75%{-ms-transform: rotate(-17deg);-webkit-transform: rotate(-17deg);transform: rotate(-17deg);}
+  	100%{-ms-transform: rotate(0deg);-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+}@-o-keyframes shake{
+
+	0%{-ms-transform: rotate(0deg);-webkit-transform: rotate(0deg);transform: rotate(0deg)}  
+  	25%{-ms-transform: rotate(17deg);-webkit-transform: rotate(17deg);transform: rotate(17deg);}
+  	50%{-ms-transform: rotate(0deg);-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+  	75%{-ms-transform: rotate(-17deg);-webkit-transform: rotate(-17deg);transform: rotate(-17deg);}
+  	100%{-ms-transform: rotate(0deg);-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+}@keyframes shake{
+
+	0%{-ms-transform: rotate(0deg);-webkit-transform: rotate(0deg);transform: rotate(0deg)}  
+  	25%{-ms-transform: rotate(17deg);-webkit-transform: rotate(17deg);transform: rotate(17deg);}
+  	50%{-ms-transform: rotate(0deg);-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+  	75%{-ms-transform: rotate(-17deg);-webkit-transform: rotate(-17deg);transform: rotate(-17deg);}
+  	100%{-ms-transform: rotate(0deg);-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+}
+
+@-webkit-keyframes spin{
+
+	0%{-ms-transform: rotate(0deg);-webkit-transform: rotate(0deg);transform: rotate(0deg)}  
+  	100%{-ms-transform: rotate(360deg);-webkit-transform: rotate(360deg);transform: rotate(360deg);}
+}@-moz-keyframes spin{
+
+	0%{-ms-transform: rotate(0deg);-webkit-transform: rotate(0deg);transform: rotate(0deg)}  
+  	100%{-ms-transform: rotate(360deg);-webkit-transform: rotate(360deg);transform: rotate(360deg);}
+}@-o-keyframes spin{
+
+	0%{-ms-transform: rotate(0deg);-webkit-transform: rotate(0deg);transform: rotate(0deg)}  
+  	100%{-ms-transform: rotate(360deg);-webkit-transform: rotate(360deg);transform: rotate(360deg);}
+}@keyframes spin{
+
+	0%{-ms-transform: rotate(0deg);-webkit-transform: rotate(0deg);transform: rotate(0deg)}  
+  	100%{-ms-transform: rotate(360deg);-webkit-transform: rotate(360deg);transform: rotate(360deg);}
+}
+
+.aic_blink{
+	-webkit-animation-name: blink;
+	-moz-animation-name: blink;
+	-o-animation-name: blink;
+	animation-name: blink;
+}
+.aic_shake{
+	-webkit-animation-name: shake;
+	-moz-animation-name: shake;
+	-o-animation-name: shake;
+	animation-name: shake;
+}
+.aic_spin{
+	-webkit-animation-name: spin;
+	-moz-animation-name: spin;
+	-o-animation-name: spin;
+	animation-name: spin;
+}
+
+.ms-1500{
+	-webkit-animation-duration: 1500ms;
+	-moz-animation-duration: 1500ms;
+	-o-animation-duration: 1500ms;
+	animation-duration: 1500ms;
+}
+.ms-1000{
+	-webkit-animation-duration: 1000ms;
+	-moz-animation-duration: 1000ms;
+	-o-animation-duration: 1000ms;
+	animation-duration: 1000ms;
+}
+.ms-500{
+	-webkit-animation-duration: 500ms;
+	-moz-animation-duration: 500ms;
+	-o-animation-duration: 500ms;
+	animation-duration: 500ms;
+}
+
+.infinite{
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	-o-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}
+
+.infinite-hover:hover{
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	-o-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}
+
+.icon-small{
+	font-size: 12px;
+}
+.icon-normal{
+	font-size: 15px;
+}
+.icon-medium{
+	font-size: 18px;
+}
+.icon-large{
+	font-size: 22px;
+}
+.icon-giant{
+	font-size: 30px;
+}
