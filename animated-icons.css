@@ -1,14 +1,13 @@
-@-webkit-keyframes blink {
+@-webkit-keyframes blink{
 
 	0%{opacity: 0;}40%{opacity: 0;}50%{opacity: 1;}100%{opacity: 1;}
-
-}@-moz-keyframes blink {
-
-	0%{opacity: 0;}40%{opacity: 0;}50%{opacity: 1;}100%{opacity: 1;}
-}@-o-keyframes blink {
+}@-moz-keyframes blink{
 
 	0%{opacity: 0;}40%{opacity: 0;}50%{opacity: 1;}100%{opacity: 1;}
-}@keyframes blink {
+}@-o-keyframes blink{
+
+	0%{opacity: 0;}40%{opacity: 0;}50%{opacity: 1;}100%{opacity: 1;}
+}@keyframes blink{
 
 	0%{opacity: 0;}40%{opacity: 0;}50%{opacity: 1;}100%{opacity: 1;}
 }
@@ -61,6 +60,28 @@
   	100%{-ms-transform: rotate(360deg);-webkit-transform: rotate(360deg);transform: rotate(360deg);}
 }
 
+@-webkit-keyframes pound{
+
+	0%{font-size: 1em;}
+	50%{font-size: 0.8em;}
+	100%{font-size: 1em;}
+}@-moz-keyframes pound{
+
+	0%{font-size: 1em;}
+	50%{font-size: 0.8em;}
+	100%{font-size: 1em;}
+}@-o-keyframes pound{
+
+	0%{font-size: 1em;}
+	50%{font-size: 0.8em;}
+	100%{font-size: 1em;}
+}@keyframes pound{
+
+	0%{font-size: 1em;}
+	50%{font-size: 0.8em;}
+	100%{font-size: 1em;}
+}
+
 .aic_blink{
 	-webkit-animation-name: blink;
 	-moz-animation-name: blink;
@@ -78,6 +99,12 @@
 	-moz-animation-name: spin;
 	-o-animation-name: spin;
 	animation-name: spin;
+}
+.aic_pound{
+	-webkit-animation-name: pound;
+	-moz-animation-name: pound;
+	-o-animation-name: pound;
+	animation-name: pound;
 }
 
 .ms-1500{
@@ -113,6 +140,13 @@
 	animation-iteration-count: infinite;
 }
 
+span[class^="icon-"]{
+	display: inline-block;
+	min-height: 1em;
+	min-width: 1em;
+	text-align: center;
+}
+
 .icon-small{
 	font-size: 12px;
 }
@@ -125,6 +159,6 @@
 .icon-large{
 	font-size: 22px;
 }
-.icon-giant{
-	font-size: 30px;
+.icon-giant{	
+	font-size: 30px;	
 }
